@@ -17,6 +17,12 @@
 /public/hot
 /public/storage
 /packages/Webkul
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
 /storage/*.key
 /storage/pail
 /vendor
