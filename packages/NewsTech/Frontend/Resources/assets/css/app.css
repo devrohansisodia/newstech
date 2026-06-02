@@ -1,0 +1,91 @@
+@import "tailwindcss" source(none);
+
+@source "../../../../../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
+@source "../../../../../../storage/framework/views/*.php";
+@source "../../../**/*.blade.php";
+@source "../../../../Core/**/*.blade.php";
+@source "../../../../**/*.php";
+
+.nt-frontend-auth-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.nt-frontend-auth-menu summary {
+    list-style: none;
+}
+
+.nt-line-clamp-4 {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.nt-prose {
+    color: rgb(68 64 60);
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.nt-prose[data-rich-content] > * + * {
+    margin-top: 1.5rem;
+}
+
+.nt-prose h2 {
+    color: rgb(28 25 23);
+    font-size: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+}
+
+.nt-prose h3 {
+    color: rgb(28 25 23);
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+}
+
+.nt-prose p {
+    margin: 0;
+}
+
+.nt-prose p + p {
+    margin-top: 1.5rem;
+}
+
+.nt-prose ul,
+.nt-prose ol {
+    padding-left: 1.5rem;
+}
+
+.nt-prose ul {
+    list-style: disc;
+}
+
+.nt-prose ol {
+    list-style: decimal;
+}
+
+.nt-prose blockquote {
+    border-left: 4px solid rgb(251 191 36);
+    color: rgb(87 83 78);
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+.nt-prose a {
+    color: rgb(180 83 9);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.nt-prose img {
+    border: 1px solid rgb(231 229 228);
+    border-radius: 1.5rem;
+    display: block;
+    height: auto;
+    margin: 1.75rem auto;
+    max-width: 100%;
+}

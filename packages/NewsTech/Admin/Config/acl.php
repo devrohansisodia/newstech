@@ -1,0 +1,94 @@
+<?php
+
+return [
+    [
+        'key' => 'dashboard',
+        'name' => 'Dashboard',
+        'route' => 'admin.newstech.dashboard',
+        'sort' => 1,
+    ],
+    [
+        'key' => 'editorial',
+        'name' => 'Editorial',
+        'route' => 'admin.newstech.articles.index',
+        'sort' => 2,
+    ],
+    [
+        'key' => 'taxonomy',
+        'name' => 'Taxonomy',
+        'route' => 'admin.newstech.categories.index',
+        'sort' => 3,
+    ],
+    [
+        'key' => 'site',
+        'name' => 'Site',
+        'route' => 'admin.newstech.pages.index',
+        'sort' => 4,
+    ],
+    [
+        'key' => 'settings',
+        'name' => 'Settings',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 5,
+    ],
+    [
+        'key' => 'settings.general',
+        'name' => 'General',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 1,
+    ],
+    [
+        'key' => 'settings.website',
+        'name' => 'Website',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 2,
+    ],
+    [
+        'key' => 'settings.seo',
+        'name' => 'SEO',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 3,
+    ],
+    [
+        'key' => 'settings.media',
+        'name' => 'Media',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 4,
+    ],
+    [
+        'key' => 'settings.email',
+        'name' => 'Email',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 5,
+    ],
+    [
+        'key' => 'settings.cache',
+        'name' => 'Cache',
+        'route' => 'admin.newstech.settings.index',
+        'sort' => 6,
+    ],
+    [
+        'key' => 'foundation',
+        'name' => 'Foundation',
+        'route' => 'admin.newstech.foundation.datagrid-demo.index',
+        'sort' => 6,
+    ],
+    [
+        'key' => 'foundation.datagrid_demo',
+        'name' => 'DataGrid Demo',
+        'route' => 'admin.newstech.foundation.datagrid-demo.index',
+        'sort' => 1,
+    ],
+    [
+        'key' => 'foundation.form_demo',
+        'name' => 'Form Demo',
+        'route' => 'admin.newstech.foundation.form-demo.index',
+        'sort' => 2,
+    ],
+    [
+        'key' => 'foundation.media_demo',
+        'name' => 'Media Demo',
+        'route' => 'admin.newstech.foundation.media-demo.index',
+        'sort' => 3,
+    ],
+];

@@ -1,0 +1,17 @@
+{
+  "packages/NewsTech/Admin/Resources/assets/css/app.css": {
+    "file": "assets/app-DYG9Lj4d.css",
+    "src": "packages/NewsTech/Admin/Resources/assets/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "packages/NewsTech/Admin/Resources/assets/js/app.js": {
+    "file": "assets/app-D_KlfOqQ.js",
+    "name": "app",
+    "src": "packages/NewsTech/Admin/Resources/assets/js/app.js",
+    "isEntry": true
+  }
+}
